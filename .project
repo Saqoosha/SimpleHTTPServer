@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>SimpleHTTPServer</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.powerflasher.fdt.core.FlashBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.powerflasher.fdt.core.FlashNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>SAQAS3</name>
+			<type>2</type>
+			<locationURI>SAQAS3</locationURI>
+		</link>
+		<link>
+			<name>as3signals</name>
+			<type>2</type>
+			<locationURI>as3signals</locationURI>
+		</link>
+		<link>
+			<name>minimalcomps</name>
+			<type>2</type>
+			<locationURI>minimalcomps</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

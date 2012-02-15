@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+PORT='9000'
+HOST='127.0.0.1'
+ROOT=$(pwd)
+
+if [ ! -z $1 ]; then
+    ROOT=$1
+fi
+
+if [ ! -z $2 ]; then
+    PORT=$2
+fi
+
+if [ ! -z $3 ]; then
+    HOST=$3
+fi
+
+echo $HOST
+
+cd $ROOT && python -m SimpleHTTPServer $PORT $HOST
